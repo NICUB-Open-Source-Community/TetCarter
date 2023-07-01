@@ -1,4 +1,4 @@
-package com.example.helcare.ui.theme
+package com.example.helcare.core.designsystem.theme
 
 import android.app.Activity
 import android.os.Build
@@ -16,13 +16,13 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
+    primary = PrimaryPurple,
     secondary = PurpleGrey80,
     tertiary = Pink80
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
+    primary = PrimaryPurple,
     secondary = PurpleGrey40,
     tertiary = Pink40
 
@@ -41,7 +41,7 @@ private val LightColorScheme = lightColorScheme(
 fun HelCareTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
