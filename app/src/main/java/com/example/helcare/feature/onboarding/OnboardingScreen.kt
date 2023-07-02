@@ -33,16 +33,22 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.helcare.R
 import com.example.helcare.core.designsystem.icon.HelCareIcons
+import com.example.helcare.core.designsystem.theme.HelCareTheme
 import com.example.helcare.core.designsystem.theme.fontFamily
 
 @Composable
-fun OnboardingRoute() {
-    OnboardingScreen()
+fun OnboardingRoute(
+    navigateToAuthentication: () -> Unit
+) {
+    OnboardingScreen(
+        onNavigateToAuth = navigateToAuthentication
+    )
 }
 
-@Preview
+
 @Composable
 fun OnboardingScreen(
+    onNavigateToAuth: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val backgroundColor = MaterialTheme.colorScheme.primary
@@ -76,26 +82,7 @@ fun OnboardingScreen(
                 color = Color.White
             )
 
-            Box() {
-                Image(
-                    painter = painterResource(id = R.drawable.welcome_screen_backgroud_img),
-                    contentDescription = null,
-                    modifier = Modifier
-                        .height(329.dp)
-                        .fillMaxWidth(),
-                    contentScale = ContentScale.Crop
-                )
-                Image(
-                    painter = painterResource(id = R.drawable.med_profs),
-                    contentDescription = null,
-                    modifier = Modifier
-                        .padding(bottom = 48.dp, end = 22.dp)
-                        .size(186.dp, 133.dp)
-                        .align(Alignment.BottomEnd),
-//                        .padding(bottom = 48.dp, end = 22.dp),
-                    contentScale = ContentScale.Crop
-                )
-            }
+            BackGroundImage()
 
 //                Spacer(modifier = Modifier.height(24.dp))
             Surface(
@@ -152,7 +139,7 @@ fun OnboardingScreen(
 
                     val iconSize = 40.dp
                     TextButton(
-                        onClick = { }
+                        onClick = onNavigateToAuth
                     ) {
                         Text(
                             text = "Let's get you started",
@@ -171,5 +158,37 @@ fun OnboardingScreen(
             }
         }
 
+    }
+}
+
+@Composable
+fun BackGroundImage() {
+    Box {
+        Image(
+            painter = painterResource(id = R.drawable.welcome_screen_backgroud_img),
+            contentDescription = null,
+            modifier = Modifier
+                .height(329.dp)
+                .fillMaxWidth(),
+            contentScale = ContentScale.Crop
+        )
+        Image(
+            painter = painterResource(id = R.drawable.med_profs),
+            contentDescription = null,
+            modifier = Modifier
+                .padding(bottom = 48.dp, end = 22.dp)
+                .size(186.dp, 133.dp)
+                .align(Alignment.BottomEnd),
+//                        .padding(bottom = 48.dp, end = 22.dp),
+            contentScale = ContentScale.Crop
+        )
+    }
+}
+
+@Preview
+@Composable
+fun OnboardingScreenPreview() {
+    HelCareTheme {
+        OnboardingScreen(onNavigateToAuth = {})
     }
 }
