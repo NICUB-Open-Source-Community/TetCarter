@@ -14,7 +14,10 @@ class MainActivity : ComponentActivity() {
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
         setContent {
-            HelCareTheme {
+            HelCareTheme(
+                darkTheme = false,
+                dynamicColor = false
+            ) {
                 HelCareApp()
             }
         }
