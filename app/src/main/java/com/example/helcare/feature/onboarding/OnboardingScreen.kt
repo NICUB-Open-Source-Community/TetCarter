@@ -53,7 +53,8 @@ fun OnboardingScreen(
 ) {
     val backgroundColor = MaterialTheme.colorScheme.primary
 
-    Box(modifier = Modifier
+    Box(
+        modifier = modifier
         .fillMaxSize()
         .drawWithCache {
             onDrawBehind {
@@ -84,7 +85,6 @@ fun OnboardingScreen(
 
             BackGroundImage()
 
-//                Spacer(modifier = Modifier.height(24.dp))
             Surface(
                 color = Color.White,
                 shape = RoundedCornerShape(topStart = 24.dp, topEnd = 24.dp),
@@ -150,7 +150,7 @@ fun OnboardingScreen(
                         )
 
                         Icon(
-                            painterResource(id = HelCareIcons.ArrowRightCircle),
+                            painterResource(id = HelCareIcons.FilledArrowRightCircle),
                             contentDescription = null
                         )
                     }
