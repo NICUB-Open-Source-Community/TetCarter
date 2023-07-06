@@ -6,7 +6,11 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.navOptions
 import com.example.helcare.feature.authentication.navigation.authGraph
+import com.example.helcare.feature.authentication.navigation.doctorAuthGraph
 import com.example.helcare.feature.authentication.navigation.navigateToAuth
+import com.example.helcare.feature.authentication.navigation.navigateToDoctorAuthentication
+import com.example.helcare.feature.authentication.navigation.navigateToDoctorLogin
+import com.example.helcare.feature.authentication.presentation.User
 import com.example.helcare.feature.onboarding.navigation.onboardingRoute
 import com.example.helcare.feature.onboarding.navigation.onboardingScreen
 import com.google.accompanist.navigation.animation.AnimatedNavHost
@@ -34,9 +38,24 @@ fun HelCareNavHost(
             }
         )
         authGraph(
-            navigateToRegistration = {},
-            navigateToLogin = {},
-            nestedGraph = {}
+            navigateToRegistration = { user ->
+                when (user) {
+                    User.DOCTOR -> {
+                        navController.navigateToDoctorAuthentication()
+                    }
+
+                    User.PATIENT -> {
+                        //
+                    }
+                }
+            },
+            navigateToLogin = {
+                // Todo: Check if it is a doctor or patient and navigate to the corresponding auth screen.
+                navController.navigateToDoctorLogin()
+            },
+            nestedGraph = {
+                doctorAuthGraph()
+            }
         )
     }
 }

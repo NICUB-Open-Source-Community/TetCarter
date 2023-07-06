@@ -10,6 +10,7 @@ object HelCareIcons {
     val FilledArrowRightCircle = R.drawable.arrow_right_circle
     val Doctor = R.drawable.doctor_male
     val ChevronRight = Icons.Rounded.ChevronRight
+    val GoogleLogo = R.drawable.icons8_google_24
 }
 
 sealed interface HelCareIcon {

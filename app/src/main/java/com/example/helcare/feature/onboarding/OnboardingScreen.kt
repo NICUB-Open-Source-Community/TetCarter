@@ -55,14 +55,14 @@ fun OnboardingScreen(
 
     Box(
         modifier = modifier
-        .fillMaxSize()
-        .drawWithCache {
-            onDrawBehind {
-                drawRect(
-                    color = backgroundColor
-                )
+            .fillMaxSize()
+            .drawWithCache {
+                onDrawBehind {
+                    drawRect(
+                        color = backgroundColor
+                    )
+                }
             }
-        }
     ) {
         Column(
             modifier = Modifier
