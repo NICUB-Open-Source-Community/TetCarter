@@ -33,6 +33,7 @@ You are welcome to contribute to WellnessCity Android app, follow the [Getting S
 * Navigation Components
 
 ## Code of Conduct
+Go through the [code of coduct](https://github.com/HelCoders-Open-Source-Community/HelCare/wiki/Contributor-Covenant-Code-of-Conduct) before picking up an issue from this repo 
 
 ## MIT License
 ```
