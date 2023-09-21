@@ -49,6 +49,7 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.core:core-ktx:+'
     def lifecycle_version = '2.6.1'
     def accompanist_version = '0.31.3-beta'
 
@@ -100,6 +101,8 @@ dependencies {
 
     // Splash API
     implementation "androidx.core:core-splashscreen:1.0.1"
+
+    implementation "io.appwrite:sdk-for-android:1.1.0"
 }
 
 kapt {
