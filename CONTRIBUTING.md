@@ -26,7 +26,7 @@ Please note that if you open a bug report, we cannot help you until you have pro
 If you would like to fix an existing issue, leave a comment on it to indicate. This is to avoid having several people unknowingly working on the same issue.
 
 ## Contributing to the source code
-1. Fork this repo, and then clone it
+1. Fork and clone this repo.
 ```
 $ git clone https://github.com/HelCoders-Open-Source-Community/HelCare.git
 $ git remote add upstream https://github.com/HelCoders-Open-Source-Community/HelCare.git
@@ -66,7 +66,6 @@ Product [Design 1](https://www.figma.com/file/n0RTLNkXAi46Us3WcTiFWO/Health-Budd
 
 ## Libraries Used
 
-* Jectpack Compose
 * Dagger Hilt
 * Retrofit
 * ViewModel
