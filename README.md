@@ -6,22 +6,10 @@ Users will get tips on all health issues, Have a live chat with a consultant and
 
 
 # Contributon Guideline
-You are welcome to contribute to WellnessCity Android app, follow the [Getting Started](#getting-started) guideline to make your first pull request. 
+You are welcome to contribute. HelCare app is built with Jetpack Compose.
+Kindly read throug [Contributors.md file](https://github.com/HelCoders-Open-Source-Community/HelCare/blob/master/CONTRIBUTOR.md) before contributing to this project. 
 [Design 1](https://www.figma.com/file/n0RTLNkXAi46Us3WcTiFWO/Health-Buddy?type=design&node-id=0-1&mode=design&t=VZlCzqQvGJXUp3GV-0)
 
-
-### Getting Started
-* Fork and clone the your copy of the repository
-* Create a new branch from develop
-* Pick an issue or create one
-* Declare your interest to work on an issue and get assigned
-* Start working on it
-
-### Pull Request
-* Create a pull request against develop branch
-* Ensure your branch is up to date with latest develop changes
-* Reference the issue you worked on in your PR
-* Explain what your PR does
 
 ## Libraries Used
 
@@ -31,6 +19,7 @@ You are welcome to contribute to WellnessCity Android app, follow the [Getting S
 * LiveData
 * Coroutines
 * Navigation Components
+* Viewbinding: we use only viewbinding.
 
 ## Code of Conduct
 Go through the [code of coduct](https://github.com/HelCoders-Open-Source-Community/HelCare/wiki/Contributor-Covenant-Code-of-Conduct) before picking up an issue from this repo 
