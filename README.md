@@ -7,7 +7,7 @@ Users will get tips on all health issues, Have a live chat with a consultant and
 
 # Contributon Guideline
 You are welcome to contribute. HelCare app is built with Jetpack Compose.
-Kindly read throug [Contributors.md file](https://github.com/HelCoders-Open-Source-Community/HelCare/blob/master/CONTRIBUTOR.md) before contributing to this project. 
+Kindly read throug [Contributing.md file](https://github.com/HelCoders-Open-Source-Community/HelCare/blob/master/CONTRIBUTING.md) before contributing to this project. 
 [Design 1](https://www.figma.com/file/n0RTLNkXAi46Us3WcTiFWO/Health-Buddy?type=design&node-id=0-1&mode=design&t=VZlCzqQvGJXUp3GV-0)
 
 
