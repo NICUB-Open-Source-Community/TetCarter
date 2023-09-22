@@ -1,7 +1,7 @@
 # Introduction
 Welcome! and thank you for your interest!
 
-The HelCare project is built by the community for the community. We welcome contributions from everyone, especially new contributors.
+The HelCare project is built by this community. We welcome contributions from everyone, especially new contributors.
 
 You can help with HelCare development in many ways, including
 
@@ -38,7 +38,7 @@ $ git remote add upstream https://github.com/HelCoders-Open-Source-Community/Hel
 3. Pick an issue or create one
 4. Declare your interest to work on an issue and get assigned
 5. Start working on it
-6. Commit the change(s) with a descriptive commit message and push to your fork. PS: here's a guide for [writing good commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). if you’re not familiar with DCO, read the guide on [signing off commits](#signing-off-on-commits) before you come back to this step. 
+6. Commit the change(s) with a descriptive commit message and push to your fork. PS: here's a guide for [writing good commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). 
 ```
 $ git add .
 $ git commit -s -m "descriptive commit message"
@@ -47,11 +47,12 @@ $ git push -u origin my-new-branch
  
 7. Submit a pull request. We encourage you to write tests if you can.
 
-At this point, you're waiting on us. We like to at least comment on pull requests within three business days (and, typically, one business day). Once one of our maintainers has had a chance to review your PR, we will either mark it as "needs review" and provide specific feedback on your changes, or we will go ahead and complete the pull request.
+At this point, you're waiting on us. We like to at least comment on pull requests as soon as possible. Once the maintainer has had a chance to review your PR, we will either mark it as "hacktoberfest-accepted" and provide specific feedback on your changes, or we will go ahead and complete the pull request and merge.
+
 To ensure all your commits are signed, you have to configure git properly by editing your global .gitconfig
 ```
-$ git config --global user.name "John Doe" 
-$ git config --global user.email johndoe@example.com
+$ git config --global user.name "godswillpanda" 
+$ git config --global user.email hodswillpanda@example.com
 
 ```
 
@@ -60,20 +61,24 @@ $ git config --global user.email johndoe@example.com
 - [Commit message style guidelines](https://commit.style/)
 
  
-[Design 1](https://www.figma.com/file/n0RTLNkXAi46Us3WcTiFWO/Health-Buddy?type=design&node-id=0-1&mode=design&t=VZlCzqQvGJXUp3GV-0)
+Product [Design 1](https://www.figma.com/file/n0RTLNkXAi46Us3WcTiFWO/Health-Buddy?type=design&node-id=0-1&mode=design&t=VZlCzqQvGJXUp3GV-0)
 
 
 ## Libraries Used
 
+* Jectpack Compose
 * Dagger Hilt
 * Retrofit
 * ViewModel
 * LiveData
 * Coroutines
 * Navigation Components
+* Viewbinding - we use only viewbinding
 
 ## Code of Conduct
 Go through the [code of coduct](https://github.com/HelCoders-Open-Source-Community/HelCare/wiki/Contributor-Covenant-Code-of-Conduct) before picking up an issue from this repo 
 
-
+##Mantainer
+- Peculiaruc
+  
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/098d739ea9504dadabbcc4898eaff86e)](https://app.codacy.com/gh/ALCOpenSource/Mentor-Management-System-Team-1/dashboard?utm_source=gh\&utm_medium=referral\&utm_content=\&utm_campaign=Badge_grade)
