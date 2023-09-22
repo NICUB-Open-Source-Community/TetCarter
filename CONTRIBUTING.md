@@ -57,7 +57,7 @@ $ git config --global user.email hodswillpanda@example.com
 ```
 
 ## Helpful Resources
-- [How to contribute to Open Source](https://opensource.guide/how-to-contribute
+- [How to contribute to Open Source](https://opensource.guide/how-to-contribute)
 - [Commit message style guidelines](https://commit.style/)
 
  
@@ -77,7 +77,7 @@ Product [Design 1](https://www.figma.com/file/n0RTLNkXAi46Us3WcTiFWO/Health-Budd
 ## Code of Conduct
 Go through the [code of coduct](https://github.com/HelCoders-Open-Source-Community/HelCare/wiki/Contributor-Covenant-Code-of-Conduct) before picking up an issue from this repo 
 
-##Mantainer
+## Mantainer
 - Peculiaruc
   
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/098d739ea9504dadabbcc4898eaff86e)](https://app.codacy.com/gh/ALCOpenSource/Mentor-Management-System-Team-1/dashboard?utm_source=gh\&utm_medium=referral\&utm_content=\&utm_campaign=Badge_grade)
