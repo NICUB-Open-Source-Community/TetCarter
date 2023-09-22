@@ -14,7 +14,7 @@ You can help with HelCare development in many ways, including
 - donating to support our work
 
 # Your First Contribution
-**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request).
+ HelCare app is built with Jetpack Compose. **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request).
 At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first. 😸
 
 # Getting Started
@@ -26,14 +26,19 @@ Please note that if you open a bug report, we cannot help you until you have pro
 If you would like to fix an existing issue, leave a comment on it to indicate. This is to avoid having several people unknowingly working on the same issue.
 
 ## Contributing to the source code
+
 1. Fork and clone this repo.
 ```
 $ git clone https://github.com/HelCoders-Open-Source-Community/HelCare.git
 $ git remote add upstream https://github.com/HelCoders-Open-Source-Community/HelCare.git
 ```
-2. Create a new branch
+2. Create a new branch from the develop branch
 
-```$ git checkout -b my-new-branch```
+```
+$ cd dev
+$ git checkout -b dev-my-new-branch
+
+```
 
 3. Pick an issue or create one
 4. Declare your interest to work on an issue and get assigned
